@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --var-color: #020202;
+  --var-button-colors: #fcaf17;
+  --var-2nd-button-color: #606060;
+  --var-text-color: #b1b1b1;
+}
+body {
+  background-color: #101010;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+/* header */
+.header {
+  width: 1480px;
+  height: 112px;
+  display: flex;
+  padding: 0px 140px;
+  background-color: var(--var-color);
+  justify-content: space-between;
+  align-items: center;
+}
+.header-first-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.nav-list {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin-left: 47px;
+}
+.first-li {
+  display: flex;
+  align-items: center;
+  padding-right: 24px;
+}
+.second-li {
+  padding-right: 24px;
+}
+.header-secod-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.launch-button {
+  width: 193px;
+  height: 52px;
+  border-radius: 8px;
+  margin-right: 40px;
+  background-color: var(--var-button-colors);
+}
+.search-img {
+  padding-right: 24px;
+}
+/* banner */
+.banner-container {
+  width: 1480px;
+  height: 818px;
+}
+.gta-banner {
+  width: 1480px;
+  margin-bottom: 80px;
+}
+/* first section */
+.catagory-and-games {
+  width: 1160px;
+  height: 554px;
+  font-size: 48px;
+  margin: 80px 0px 112.5px 0px;
+  color: white;
+}
+.gaming-platforms {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.platforms {
+  display: flex;
+  align-items: center;
+}
+.platforms button {
+  height: 32px;
+  border-radius: 100px;
+  color: white;
+  background-color: var(--var-2nd-button-color);
+}
+.PC {
+  width: 70px;
+  margin-right: 16px;
+}
+.Console {
+  width: 106px;
+  margin-right: 16px;
+}
+.last-button {
+  width: 196px;
+}
+/* thumbnails */
+.thumbnails {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 40px;
+}
+.thumbnails img {
+  width: 260px;
+  height: 315px;
+  border-radius: 16px;
+}
+.gta5 {
+  grid-column: 1/2;
+}
+.thumbnails-button-div {
+  display: flex;
+  justify-content: center;
+}
+.thumbnails-button-div button {
+  width: 260px;
+  height: 63px;
+  border-radius: 8px;
+  font-size: 20px;
+  margin-top: 64px;
+  color: #020202;
+  background-color: var(--var-button-colors);
+}
+/* section2 */
+.section-2 {
+  color: white;
+  width: 1160px;
+  height: 632px;
+  font-size: 48px;
+  margin-bottom: 80px;
+}
+.section-2-header {
+  margin-bottom: 40px;
+}
+.section-2-grid {
+  display: grid;
+  height: 520px;
+  grid-template-columns: 860px 260px;
+  grid-template-rows: repeat(2, 224px);
+  grid-gap: 40px;
+}
+.section-2-div-2 {
+  grid-column: 2;
+  grid-row: 2;
+}
+/* section3 */
+.section-3 {
+  width: 1160px;
+  height: 535px;
+  margin-bottom: 95px;
+}
+
+.footer {
+  width: 1480px;
+  height: 238px;
+  display: flex;
+  background-color: var(--var-color);
+  color: var(--var-text-color);
+  align-items: center;
+  justify-content: space-around;
+}
+.footer-1st-part {
+  display: flex;
+}
+.footer-nav {
+  margin-left: 40px;
+}
+.footer-ul {
+  display: flex;
+  list-style-type: none;
+  margin-bottom: 8px;
+}
+.footer-li {
+  margin-right: 24px;
+}
+.footer-link {
+  font-size: 13px;
+}
+.footer-2nd-part {
+  display: flex;
+}
+.footer-ul-2 {
+  list-style-type: none;
+  display: flex;
+}
+.footer-li-2 {
+  margin-right: 32px;
+}
